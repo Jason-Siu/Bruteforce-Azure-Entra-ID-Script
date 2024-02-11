@@ -1,0 +1,1 @@
+# Bruteforce-Azure-Entra-ID-Script
