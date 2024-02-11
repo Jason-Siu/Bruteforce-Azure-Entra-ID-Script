@@ -1,9 +1,9 @@
 # This script fails to login '$max_attempts' times, and then successfully logs in once
 Import-Module Az
 # Authenticate user against Azure AD
-$tenantId = "20362a74-aa77-4966-9776-b94e6a6fbae7" # My Tenant ID, you can find on the AAD Blade in the Azure Portal
+$tenantId = "*********-****-****-****-************" # My Tenant ID, blurred for privacy purposes
 $username = "attacker@jsiu7900gmail.onmicrosoft.com" # Some Username that exists in my AAD Tenant
-$correct_password = "cyberlab123~" # Enter the correct password for the above user
+$correct_password = "BruteforcePSpassword" # Enter the correct password for the above user (not actual password)
 $wrong_password = "___WRONG PASSWORD___" # This is used to generate auth failures
 $max_attempts = 11 # This is the number of times to fail the login before succeeding
 
