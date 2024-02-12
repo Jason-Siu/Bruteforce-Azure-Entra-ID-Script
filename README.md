@@ -18,6 +18,11 @@ I used an attacker virtual machine located in India. To create this, I simply ju
 Upon running the script multiple times, we can observe the incidents occurred here:
 ![image](https://github.com/Jason-Siu/Bruteforce-Azure-Entra-ID-Script/assets/34889726/29953e80-384d-4db7-9ba1-c4b071541764)
 
+Additionally, we can manually insert the KQL incident code into our workspace for details:
+![image](https://github.com/Jason-Siu/Bruteforce-Azure-Entra-ID-Script/assets/34889726/c8b80a87-0dec-4ba8-b093-e892d8173f14)
+
+As you can see in the image above, the only successful bruteforce attempts were done from our attacker VM and not any other entity. However, a lot more entities attempted to brute force, just none were successful.
+
 ## Threat Map
 And our threat map would appear as:
 
